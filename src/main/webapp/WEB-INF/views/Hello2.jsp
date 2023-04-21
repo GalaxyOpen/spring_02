@@ -21,6 +21,7 @@
         const name = "나나핑";
         const age = 3;
         location.href = "/Hello-param1?name="+name+"$age="+age;
+        return "hello-param1";
     }
 </script>
 </html>

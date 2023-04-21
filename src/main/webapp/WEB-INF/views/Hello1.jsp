@@ -11,6 +11,20 @@
     <title>Title</title>
 </head>
 <body>
-<h2>뭔지 알겠음?</h2>
+<h2>hello1.jsp</h2>
+<a href="/">index로 가기</a>
+<form action="/form-param1" method ="get">
+<%--     폼테그 목적지는 폼param1--%>
+    <input type="text" name ="p1"><br>
+    <input type="text" name ="p2"><br>
+    <input type="submit" value="전송">
+</form>
+
+<form action="/form-param2" method ="post">
+    <%--     폼테그 목적지는 폼param2--%>
+    <input type="text" name ="p3"><br>
+    <input type="text" name ="p4"><br>
+    <input type="submit" value="전송">
+</form>
 </body>
 </html>
